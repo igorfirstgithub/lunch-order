@@ -1,0 +1,327 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Smythe", cursive;
+}
+
+main,
+header {
+  width: 600px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  margin-bottom: 35px;
+}
+
+.img-header {
+  width: 100%;
+}
+
+.food-pic {
+  width: 70px;
+  margin-bottom: auto;
+}
+
+.item-title {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 17px;
+  margin-bottom: 8px;
+}
+
+.item-description {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+  margin-bottom: 8px;
+}
+
+.item-price {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.title-total-order {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.basket-item-title {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 17px;
+
+}
+
+.basket-item-remove {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  background: none;
+  color: #bbbbbb;
+  border: none;
+}
+
+
+
+.basket-item-remove:hover {
+  cursor: pointer;
+}
+
+.basket-item-price {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: auto;
+  /* identical to box height, or 120% */
+}
+
+.total-price {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px;
+  /* identical to box height, or 86% */
+
+
+  color: #0E0E0E;
+}
+
+.total-price-number {
+  font-family: 'Smythe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.price-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-price-divider {
+  color: #393333
+}
+
+.btn-complete-order {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  /* white */
+  border: none;
+  border-radius: 3px;
+  background: #16db99;
+  color: #FFFFFF;
+}
+
+.food-position {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d2d2d2;
+  padding-top: 5px;
+  width: 508px;
+  margin: 0 auto;
+  width: 508px;
+  height: 100px;
+
+  margin-bottom: 25px;
+}
+
+.total-order {
+  margin: 0 auto;
+  width: 508px;
+  margin-top: 60px;
+}
+
+.img-and-text {
+  display: flex;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+}
+
+.add-button {
+  border-radius: 50%;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d2d2d2;
+  font-size: 32px;
+  background: white;
+  margin-left: auto;
+  margin-bottom: auto;
+
+
+}
+
+.align-add-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.one-piece-order {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.modal-pay {
+  display: none;
+  width: 400px;
+  height: 410px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 50px black;
+}
+
+.pay-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.pay-button {
+  padding: 0;
+  margin: 7px;
+  margin-top: 25px;
+  background: #16db99;
+  border: none;
+  color: white;
+  height: 50px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.pay-form-child {
+  height: 50px;
+  padding: 0 10px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  border-radius: 3px;
+  border: 1.5px solid #757575;
+  /* or 156% */
+
+
+  color: #757575;
+}
+
+.pay-form-header {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 130% */
+
+
+  color: #000000;
+}
+
+input {
+  margin: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+.thanks-header {
+  display: none;
+  text-align: center;
+  padding: 10px 20px;
+  color: #065f46;
+  background: #ecfdf5;
+}
+
+.star {
+  color: lightgrey;
+}
+
+.modal-rating {
+  display: none;
+
+
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 40px black;
+
+}
+
+.rate-button {
+  background: #16db99;
+  color: white;
+  width: 100px;
+  margin-top: 30px;
+  border: none;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rating-inner {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

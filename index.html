@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>Having lunch</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google font smythe -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="img-header" src="./images/dinner-poster.jpg" alt="Tasty hamburger">
+            
+        </header>
+        <main>
+            <div id="menu">
+                <!-- Here our Javascript puts some HTML code -->
+            </div>
+            
+
+        </main>
+
+        <div class="modal-pay" id="modal-pay">
+            <form class="pay-form" id="pay-form">
+                <h3 class="pay-form-header">Enter card details</h3>
+                <input 
+                    type="text" 
+                    placeholder="Your name"
+                    id="client-name" 
+                    name="client-name"
+                    required
+                    class="pay-form-child"
+                    
+                >
+                <input 
+                    type="number" 
+                    placeholder="Card number (2 numbers)"
+                    id="card-number" 
+                    name="card-number"
+                    required
+                    class="pay-form-child"
+                    
+                >
+                <input 
+                    type="number" 
+                    placeholder="CVV (3 numbers)" 
+                    id="cvv"
+                    name="cvv"
+                    required
+                    class="pay-form-child"
+                    
+                >
+                <button class="pay-button" id="submit-pay-form" type="submit">Pay</button>
+            </form>
+        </div>
+
+        <div class="modal-rating" id="modal-rating">
+            <div class="rating-inner" id="rating-inner"></div>
+        </div>
+        
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
